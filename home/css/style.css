@@ -23,7 +23,7 @@
 
 .banner h1,
 .banner p {
-    text-align: left;
+    text-align: center;
 }
 
 .width-60 {
@@ -34,6 +34,11 @@
 .section.purple,
 .section.purple .row {
     min-height: 40vh;
+}
+
+.banner.section .form-wrapper {
+    margin-top: 20px;
+    justify-content: center;
 }
 
 @media (max-width: 560px) {
