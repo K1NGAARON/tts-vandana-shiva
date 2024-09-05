@@ -63,4 +63,8 @@
     .form-wrapper.small {
         width: 100%;
     }
+
+    .banner.section .row.flex-col.center {
+        padding-top: 60px;
+    }
 }
