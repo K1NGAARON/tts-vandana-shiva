@@ -23,12 +23,16 @@
 
 .banner h1,
 .banner p {
-    text-align: center;
+    text-align: left;
 }
 
 .width-60 {
     width: 60%;
-    text-align: center;
+    text-align: left;
+}
+
+.banner.section img {
+    border-radius: 15px;
 }
 
 .section.purple,
@@ -37,8 +41,11 @@
 }
 
 .banner.section .form-wrapper {
-    margin-top: 20px;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+#_form_9_._inline-form ._form-label {
+    display: none;
 }
 
 @media (max-width: 560px) {
@@ -64,7 +71,7 @@
         width: 100%;
     }
 
-    .banner.section .row.flex-col.center {
-        padding-top: 60px;
+    .banner.section .row {
+        padding-top: 30px;
     }
 }
