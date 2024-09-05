@@ -54,6 +54,10 @@
         width: 100%;
     }
 
+    .banner h1 {
+        font-size: 24px;
+    }
+
     .form-wrapper {
         padding: 0;
     }
